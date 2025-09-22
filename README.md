@@ -1,7 +1,3 @@
-Here’s a polished **fancy README** draft for your project, styled like something you’d see on a serious open-source repo but with a bit of flair:
-
----
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="Banner" width="800"/>
   <h1>📄 LaTeX White Paper Viewer</h1>
