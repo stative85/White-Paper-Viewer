@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fractal Heat Void™ White Paper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JutHwOxCRRBJIgbHA_SulAaNTwZJulJNoKMDJLMB7rdACihLkJUCRMgjQMiwwb7rmroCzrGhtL+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            typography: ({ theme }) => ({
+              DEFAULT: {
+                css: {
+                  '--tw-prose-body': theme('colors.slate[300]'),
+                  '--tw-prose-headings': theme('colors.slate[100]'),
+                  '--tw-prose-lead': theme('colors.slate[400]'),
+                  '--tw-prose-links': theme('colors.sky[400]'),
+                  '--tw-prose-bold': theme('colors.slate[100]'),
+                  '--tw-prose-counters': theme('colors.slate[400]'),
+                  '--tw-prose-bullets': theme('colors.sky[400]'),
+                  '--tw-prose-hr': theme('colors.slate[700]'),
+                  '--tw-prose-quotes': theme('colors.slate[100]'),
+                  '--tw-prose-quote-borders': theme('colors.slate[700]'),
+                  '--tw-prose-captions': theme('colors.slate[400]'),
+                  '--tw-prose-code': theme('colors.sky[300]'),
+                  '--tw-prose-pre-code': theme('colors.slate[300]'),
+                  '--tw-prose-pre-bg': theme('colors.slate[800]'),
+                  '--tw-prose-th-borders': theme('colors.slate[600]'),
+                  '--tw-prose-td-borders': theme('colors.slate[700]'),
+                  '--tw-prose-invert-body': theme('colors.slate[300]'),
+                  '--tw-prose-invert-headings': theme('colors.white'),
+                  '--tw-prose-invert-lead': theme('colors.slate[400]'),
+                  '--tw-prose-invert-links': theme('colors.white'),
+                  '--tw-prose-invert-bold': theme('colors.white'),
+                  '--tw-prose-invert-counters': theme('colors.slate[400]'),
+                  '--tw-prose-invert-bullets': theme('colors.slate[400]'),
+                  '--tw-prose-invert-hr': theme('colors.slate[700]'),
+                  '--tw-prose-invert-quotes': theme('colors.slate[100]'),
+                  '--tw-prose-invert-quote-borders': theme('colors.slate[700]'),
+                  '--tw-prose-invert-captions': theme('colors.slate[400]'),
+                  '--tw-prose-invert-code': theme('colors.white'),
+                  '--tw-prose-invert-pre-code': theme('colors.slate[300]'),
+                  '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
+                  '--tw-prose-invert-th-borders': theme('colors.slate[600]'),
+                  '--tw-prose-invert-td-borders': theme('colors.slate[700]'),
+                },
+              },
+            }),
+          }
+        }
+      }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* For custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a; /* bg-slate-900 */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155; /* bg-slate-700 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569; /* bg-slate-600 */
+        }
+        /* Override PrismJS default background */
+        pre[class*="language-"] {
+            background: #1e293b; /* slate-800 */
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+  }
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoVBL5gI9kLmbG0CsdTkrj4rLIZSPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4D7lrdigTBzIPVY+DYBIK5rmAwN⁹b/0ZTpIovbOU9AaXj09DrcSOz0Ab0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900">
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js" integrity="sha512-9khQRAUBYEJDCDVP2yw3LRUQvjJ0Pjx0EShmaQjcHa6AXiOv6qHQu9iU8e05QcdbxUKEYoM+2AGL2KMryC0Hmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SvxN3gHARCLIKMbgAuSICZ8Zfil5HftU7TdOaALESItEVRDU07leQ9FXCsCZ2bq+7nT+mnDcrNVoPppkQ7AaNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

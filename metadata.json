@@ -1,0 +1,5 @@
+{
+  "name": "LaTeX White Paper Viewer",
+  "description": "An application that renders a technical LaTeX white paper into a visually appealing and modern web page, focusing on high-quality typography and layout.",
+  "requestFramePermissions": []
+}
